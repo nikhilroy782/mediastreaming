@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jSq-GW-dHL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jSq-GW-dHL">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -178,7 +176,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" translatesAutoresizingMaskIntoConstraints="NO" id="JtE-zy-FFh">
-                                        <rect key="frame" x="70" y="0.0" width="305" height="2.666666666666667"/>
+                                        <rect key="frame" x="70" y="0.0" width="305" height="3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2" id="DtM-RU-e84"/>
                                         </constraints>
@@ -292,7 +290,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellSong" rowHeight="80" id="9Mb-BL-cKy" customClass="SongCell" customModule="Music_Play" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellSong" rowHeight="80" id="9Mb-BL-cKy" customClass="SongCell" customModule="Music_Play" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9Mb-BL-cKy" id="NEp-Sp-wE8">
@@ -538,7 +536,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellNowPlaying" rowHeight="80" id="Ey9-er-c60" customClass="PlayingCell" customModule="Music_Play" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellNowPlaying" rowHeight="80" id="Ey9-er-c60" customClass="PlayingCell" customModule="Music_Play" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ey9-er-c60" id="syA-6w-wHZ">
@@ -988,7 +986,7 @@
                                 <rect key="frame" x="0.0" y="256" width="375" height="522"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="menuCell" rowHeight="60" id="J3L-S1-yd0" customClass="menuCell" customModule="Music_Play" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="menuCell" rowHeight="60" id="J3L-S1-yd0" customClass="menuCell" customModule="Music_Play" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="J3L-S1-yd0" id="QcB-oU-aGe">
@@ -1161,7 +1159,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellQueue" rowHeight="80" id="4sL-0U-NTx" customClass="PlayingQueueCell" customModule="Music_Play" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellQueue" rowHeight="80" id="4sL-0U-NTx" customClass="PlayingQueueCell" customModule="Music_Play" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4sL-0U-NTx" id="xKd-tc-aqZ">
@@ -1702,7 +1700,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PlaylistCell" rowHeight="60" id="7HN-8K-i4q" customClass="PlaylistCell" customModule="Music_Play" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PlaylistCell" rowHeight="60" id="7HN-8K-i4q" customClass="PlaylistCell" customModule="Music_Play" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7HN-8K-i4q" id="loN-dy-guN">
@@ -1870,7 +1868,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ArtistAlbumSongCell" rowHeight="80" id="YH8-28-KxD" customClass="SongCell" customModule="Music_Play" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ArtistAlbumSongCell" rowHeight="80" id="YH8-28-KxD" customClass="SongCell" customModule="Music_Play" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YH8-28-KxD" id="Yx9-Ex-bGe">
@@ -2722,19 +2720,78 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Qk9-yU-4sM">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Qk9-yU-4sM">
                                 <rect key="frame" x="0.0" y="44" width="375" height="734"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Bzc-t5-lZ4">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RadioTableCell" rowHeight="80" id="jOR-Ej-Lw5" customClass="RadioTableCell" customModule="Music_Play" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bzc-t5-lZ4" id="oNb-ZL-Cgp">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jOR-Ej-Lw5" id="qKr-31-P5I">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sf8-uL-XrR">
+                                                    <rect key="frame" x="8" y="15" width="50" height="50"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="50" id="0ak-2c-7UE"/>
+                                                        <constraint firstAttribute="width" constant="50" id="ORe-zJ-yI5"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="ignoresInvertColors" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qnA-2I-DAO">
+                                                    <rect key="frame" x="66" y="15" width="301" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="kU8-er-dSY"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgN-Lz-ClS">
+                                                    <rect key="frame" x="66" y="44" width="301" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="f1K-Fl-WI5"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="13"/>
+                                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r65-UO-NjB">
+                                                    <rect key="frame" x="0.0" y="78.666666666666671" width="375" height="1"/>
+                                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="69R-zE-EDi"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="hgN-Lz-ClS" firstAttribute="leading" secondItem="sf8-uL-XrR" secondAttribute="trailing" constant="8" id="0lG-Zh-EKe"/>
+                                                <constraint firstItem="hgN-Lz-ClS" firstAttribute="top" secondItem="qnA-2I-DAO" secondAttribute="bottom" constant="8" id="0ua-KE-WLz"/>
+                                                <constraint firstAttribute="bottom" secondItem="r65-UO-NjB" secondAttribute="bottom" id="48O-vE-rY4"/>
+                                                <constraint firstAttribute="trailing" secondItem="qnA-2I-DAO" secondAttribute="trailing" constant="8" id="8Y5-2s-1ZY"/>
+                                                <constraint firstAttribute="trailing" secondItem="r65-UO-NjB" secondAttribute="trailing" id="Bu5-f9-J6I"/>
+                                                <constraint firstItem="sf8-uL-XrR" firstAttribute="centerY" secondItem="qKr-31-P5I" secondAttribute="centerY" id="Dju-cD-Eh9"/>
+                                                <constraint firstItem="sf8-uL-XrR" firstAttribute="leading" secondItem="qKr-31-P5I" secondAttribute="leading" constant="8" id="KQ1-Aa-W8T"/>
+                                                <constraint firstAttribute="trailing" secondItem="hgN-Lz-ClS" secondAttribute="trailing" constant="8" id="Rpo-QK-VbD"/>
+                                                <constraint firstItem="qnA-2I-DAO" firstAttribute="leading" secondItem="sf8-uL-XrR" secondAttribute="trailing" constant="8" id="cnM-Ge-SAZ"/>
+                                                <constraint firstItem="qnA-2I-DAO" firstAttribute="top" secondItem="qKr-31-P5I" secondAttribute="top" constant="15" id="mOQ-Ir-bUX"/>
+                                                <constraint firstItem="r65-UO-NjB" firstAttribute="leading" secondItem="qKr-31-P5I" secondAttribute="leading" id="r0H-Hi-xrq"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="img_radio" destination="sf8-uL-XrR" id="gne-3i-u5h"/>
+                                            <outlet property="lbl_desc" destination="hgN-Lz-ClS" id="r3U-AQ-fhA"/>
+                                            <outlet property="lbl_name" destination="qnA-2I-DAO" id="myK-TV-82P"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Cbd-oz-ddA" id="Uyo-vY-qSr"/>
+                                    <outlet property="delegate" destination="Cbd-oz-ddA" id="vjK-qS-ijk"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2746,6 +2803,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="r1N-QD-tS2"/>
                     </view>
+                    <connections>
+                        <outlet property="tbl_radio" destination="Qk9-yU-4sM" id="5Jx-gr-yUo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Ze-ZB-FOz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2840,7 +2900,7 @@
                                 <rect key="frame" x="0.0" y="148" width="375" height="630"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellSearch" rowHeight="80" id="99l-14-cZ5" customClass="SearchCell" customModule="Music_Play" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellSearch" rowHeight="80" id="99l-14-cZ5" customClass="SearchCell" customModule="Music_Play" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="99l-14-cZ5" id="Awk-kV-vtQ">
@@ -3008,7 +3068,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="playlistSongCell" rowHeight="80" id="aYc-EM-xme" customClass="SongCell" customModule="Music_Play" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="playlistSongCell" rowHeight="80" id="aYc-EM-xme" customClass="SongCell" customModule="Music_Play" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aYc-EM-xme" id="MaJ-us-YG1">
@@ -3214,7 +3274,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellArtistTable" rowHeight="80" id="sKx-og-CSw" customClass="ArtistTableCell" customModule="Music_Play" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellArtistTable" rowHeight="80" id="sKx-og-CSw" customClass="ArtistTableCell" customModule="Music_Play" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sKx-og-CSw" id="rZo-MC-zft">
@@ -3386,7 +3446,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellAlbumTable" rowHeight="80" id="EKz-be-d5g" customClass="AlbumTableCell" customModule="Music_Play" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellAlbumTable" rowHeight="80" id="EKz-be-d5g" customClass="AlbumTableCell" customModule="Music_Play" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EKz-be-d5g" id="YX8-aC-slB">
@@ -3480,26 +3540,26 @@
         </scene>
     </scenes>
     <resources>
-        <image name="add" width="64" height="64"/>
-        <image name="back" width="32" height="32"/>
-        <image name="checkbox" width="64" height="64"/>
-        <image name="circle" width="32" height="32"/>
+        <image name="add" width="51.200000762939453" height="51.200000762939453"/>
+        <image name="back" width="25.600000381469727" height="25.600000381469727"/>
+        <image name="checkbox" width="51.200000762939453" height="51.200000762939453"/>
+        <image name="circle" width="25.600000381469727" height="25.600000381469727"/>
         <image name="ic_action_search" width="48" height="48"/>
         <image name="ic_play_white_36dp" width="54" height="54"/>
         <image name="logo" width="512" height="512"/>
         <image name="menu_White" width="61" height="53"/>
         <image name="musical-note" width="50" height="50"/>
-        <image name="next-white" width="64" height="64"/>
-        <image name="option" width="64" height="64"/>
-        <image name="option_black" width="64" height="64"/>
-        <image name="play" width="64" height="64"/>
-        <image name="play-next-button" width="32" height="32"/>
-        <image name="previous-track" width="64" height="64"/>
-        <image name="previous-white" width="64" height="64"/>
+        <image name="next-white" width="51.200000762939453" height="51.200000762939453"/>
+        <image name="option" width="51.200000762939453" height="51.200000762939453"/>
+        <image name="option_black" width="51.200000762939453" height="51.200000762939453"/>
+        <image name="play" width="51.200000762939453" height="51.200000762939453"/>
+        <image name="play-next-button" width="25.600000381469727" height="25.600000381469727"/>
+        <image name="previous-track" width="51.200000762939453" height="51.200000762939453"/>
+        <image name="previous-white" width="51.200000762939453" height="51.200000762939453"/>
         <image name="repeat" width="45" height="44"/>
         <image name="search_black-1" width="32" height="32"/>
-        <image name="selected" width="64" height="64"/>
-        <image name="shuffle" width="32" height="32"/>
+        <image name="selected" width="51.200000762939453" height="51.200000762939453"/>
+        <image name="shuffle" width="25.600000381469727" height="25.600000381469727"/>
         <image name="timber_3_nowplaying_x" width="358" height="583"/>
     </resources>
 </document>

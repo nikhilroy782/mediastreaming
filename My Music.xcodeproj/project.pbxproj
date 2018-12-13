@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B4728D621C255EC0047E412 /* RadioTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4728D521C255EC0047E412 /* RadioTableCell.swift */; };
 		7F3F773E21761DBE005A7030 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3F773A21761D86005A7030 /* GoogleMobileAds.framework */; };
 		9F105FF8215CE590005C971F /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F105FF7215CE590005C971F /* SearchVC.swift */; };
 		9F105FFA215CECD2005C971F /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F105FF9215CECD2005C971F /* SearchCell.swift */; };
@@ -67,6 +68,7 @@
 		0A51C12BD81566DFCB645687 /* Pods-My MusicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My MusicTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My MusicTests/Pods-My MusicTests.debug.xcconfig"; sourceTree = "<group>"; };
 		29AD6FA52C412601BD3CABC6 /* Pods_My_Music.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Music.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC8F761D04463E7C28A51BD /* Pods-My Music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Music.release.xcconfig"; path = "Pods/Target Support Files/Pods-My Music/Pods-My Music.release.xcconfig"; sourceTree = "<group>"; };
+		5B4728D521C255EC0047E412 /* RadioTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioTableCell.swift; sourceTree = "<group>"; };
 		65AC11097BF52FCF260FC955 /* Pods-My MusicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My MusicUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My MusicUITests/Pods-My MusicUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F3F773A21761D86005A7030 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		93E3F912092FE934E622F1FF /* Pods-My Music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My Music/Pods-My Music.debug.xcconfig"; sourceTree = "<group>"; };
@@ -303,6 +305,7 @@
 			isa = PBXGroup;
 			children = (
 				F6CB8D3421C02829008B0910 /* RadioVC.swift */,
+				5B4728D521C255EC0047E412 /* RadioTableCell.swift */,
 			);
 			path = Radio;
 			sourceTree = "<group>";
@@ -570,6 +573,7 @@
 				F66733C821458AD600F15C1D /* FMDatabaseQueue.m in Sources */,
 				9F528A032152613E00E6F627 /* ArtistAlbumSongsVC.swift in Sources */,
 				9F528A012152593500E6F627 /* PlaylistSongVC.swift in Sources */,
+				5B4728D621C255EC0047E412 /* RadioTableCell.swift in Sources */,
 				F66733AF2145800600F15C1D /* PlaylistVC.swift in Sources */,
 				F6B039A02141AEE600B3E6A1 /* SidemenuVC.swift in Sources */,
 				9F2CD49D2142823B00FDA09A /* SongCell.swift in Sources */,
@@ -725,7 +729,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 228777C638;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -755,7 +759,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 228777C638;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

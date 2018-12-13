@@ -10,6 +10,7 @@ import Foundation
 import MediaPlayer
 import UIKit
 import NotificationCenter
+import AVFoundation
 
 class GlobalClass {
     
@@ -26,6 +27,7 @@ class GlobalClass {
     static let UD_queueItems = "queueItems"
     
     static let globalPlayer = MPMusicPlayerController.systemMusicPlayer
+    static var player: AVPlayer!
     static var songTimer = Timer()
     static var homeTimer = Timer()
     static var equilizerTimer = Timer()
